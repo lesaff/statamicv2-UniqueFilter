@@ -13,14 +13,9 @@ class UniqueFilter extends Filter
      */
     public function filter()
     {
-
 		return $this->collection->unique(function ($entry) {
-
 			$uid = $this->get('uid', 'unique_id');
-
             return $entry->get($uid);
-
         });
-
     }
 }

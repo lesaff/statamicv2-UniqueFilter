@@ -1,4 +1,5 @@
-# statamicv2-UniqueFilter
+# statamicv2-UniqueFilter # ![StyleCI](https://styleci.io/repos/70647061/shield?branch=master)
+
 Filters unique entries from your collection
 
 ### Installation ###
